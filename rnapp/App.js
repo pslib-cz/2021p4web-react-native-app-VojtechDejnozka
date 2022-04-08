@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Platform, Text, View, StyleSheet, SafeAreaView, Dimensions } from 'react-native';
+import { Platform, Text, View, StyleSheet, SafeAreaView, Dimensions, Image } from 'react-native';
 import Constants from 'expo-constants';
 import * as Location from 'expo-location';
 import  MapView from 'react-native-maps';
-import  Marker  from 'react-native-maps';
+import  { Marker }  from 'react-native-maps';
 
 export default function App() {
   const [location, setLocation] = useState(null);
@@ -42,10 +42,16 @@ export default function App() {
       initialRegion={{
         latitude: lat,
         longitude: lon,
-        latitudeDelta: 0.0922,
-        longitudeDelta: 0.0421,
+        latitudeDelta: 0.0466,
+        longitudeDelta: 0.0210,
       }}
-    />
+    >
+      <Marker
+  coordinate={{ latitude : lat , longitude : lon }}>
+    <Image source={require('./circle.png')} style={{height: 20, width: 20 }} />
+    </Marker>
+
+      </MapView>
       </View>
       
     );
