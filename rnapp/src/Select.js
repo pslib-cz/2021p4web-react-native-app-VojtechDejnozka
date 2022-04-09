@@ -12,6 +12,26 @@ export const Select = props => {
     {label: '101', value: '101'},
     {label: '102', value: '102'},
     {label: '103', value: '103'},
+    {label: '104', value: '104'},
+    {label: '105', value: '105'},
+    {label: '106', value: '106'},
+    {label: '107', value: '107'},
+    {label: '108', value: '108'},
+    {label: '109', value: '109'},
+    {label: '110', value: '110'},
+    {label: '111', value: '111'},
+    {label: '112', value: '112'},
+    {label: '113', value: '113'},
+    {label: '114', value: '114'},
+    {label: '115', value: '115'},
+    {label: '116', value: '116'},
+    {label: '117', value: '117'},
+    {label: '118', value: '118'},
+    {label: '126', value: '126'},
+    {label: '130', value: '130'},
+    {label: '131', value: '131'},
+    {label: '132', value: '132'},
+    {label: '133', value: '133'},
   ]);
 
   const [location, setLocation] = useState(null);
@@ -76,8 +96,7 @@ export const Select = props => {
               key={marker.id} 
               coordinate={{latitude: marker.lat, longitude: marker.lon}} 
               title={marker.title}
-              description={marker.description}
-              pinColor={marker.color}    />
+              description={marker.description} />
            })}
 
       </MapView>

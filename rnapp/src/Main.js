@@ -58,8 +58,7 @@ export const Main = props => {
               key={marker.id} 
               coordinate={{latitude: marker.lat, longitude: marker.lon}} 
               title={marker.title}
-              description={marker.description}
-              pinColor={marker.color}    />
+              description={marker.description}  />
            })}
 
       </MapView>
