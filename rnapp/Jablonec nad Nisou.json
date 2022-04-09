@@ -1,0 +1,514 @@
+[
+    {
+        "color": "red",
+        "description": "101",
+        "id": 1,
+        "lat": 50.7940444,
+        "lon": 15.1421575,
+        "title": "Bedřichov,centrální parkoviště"
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 2,
+        "lat": 50.7903747,
+        "lon": 15.1446333,
+        "title": "Bedřichov,u obecního úřadu"
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 3,
+        "lat": 50.7877883,
+        "lon": 15.1495875,
+        "title": "Bedřichov,u bowlingu"
+    },
+    {
+        "color": "red",
+        "description": "101, 126",
+        "id": 4,
+        "lat": 50.7835275,
+        "lon": 15.1593619,
+        "title": "Bedřichov,úpravna vody"
+    },
+    {
+        "color": "red",
+        "description": "101, 126",
+        "id": 5,
+        "lat": 50.7757797,
+        "lon": 15.1672811,
+        "title": "Janov n.Nisou,samoobsluha"
+    },
+    {
+        "color": "red",
+        "description": "101, 126",
+        "id": 6,
+        "lat": 50.7731742,
+        "lon": 15.1685714,
+        "title": "Janov n.Nisou,pošta "
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 7,
+        "lat": 50.7695044,
+        "lon": 15.1687803,
+        "title": "Janov n.Nisou,hotel Praha "
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 8,
+        "lat": 50.7675322,
+        "lon": 15.1692133,
+        "title": "Janov n.Nisou,transf."
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 9,
+        "lat": 50.7619019,
+        "lon": 15.1646594,
+        "title": "Janov n.Nisou,Modrý Dunaj "
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 10,
+        "lat": 50.7597197,
+        "lon": 15.1609803,
+        "title": "Janov n.Nisou,Hraničná"
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 11,
+        "lat": 50.7549439,
+        "lon": 15.1618653,
+        "title": "Janov n.Nisou,Loučná"
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 12,
+        "lat": 50.7493058,
+        "lon": 15.1581964,
+        "title": "Janovská Silka "
+    },
+    {
+        "color": "red",
+        "description": "101",
+        "id": 13,
+        "lat": 50.7451211,
+        "lon": 15.1556006,
+        "title": "Sídl.Janovská"
+    },
+    {
+        "color": "red",
+        "description": "101, 107, 109, 112, 115, 133",
+        "id": 14,
+        "lat": 50.7438508,
+        "lon": 15.15724,
+        "title": "Rýnovice,Ostrý Roh"
+    },
+    {
+        "color": "red",
+        "description": "101, 107, 109, 112, 115, 133",
+        "id": 15,
+        "lat": 50.7418633,
+        "lon": 15.1616058,
+        "title": "Mšeno,U Jelena"
+    },
+    {
+        "color": "red",
+        "description": "101, 107, 109, 110, 112, 115, 133",
+        "id": 16,
+        "lat": 50.7393189,
+        "lon": 15.1656933,
+        "title": "Mšeno,škola"
+    },
+    {
+        "color": "red",
+        "description": "101, 107, 109, 110, 112, 115, 131, 133",
+        "id": 17,
+        "lat": 50.7351381,
+        "lon": 15.1683911,
+        "title": "Mšeno,kaplička"
+    },
+    {
+        "color": "red",
+        "description": "101, 107, 109, 110, 112, 115, 131, 133",
+        "id": 18,
+        "lat": 50.7318611,
+        "lon": 15.1693756,
+        "title": "Jablonex"
+    },
+    {
+        "color": "red",
+        "description": "101, 107, 110, 112, 115, 132",
+        "id": 19,
+        "lat": 50.7271194,
+        "lon": 15.1705922,
+        "title": "Horní nám."
+    },
+    {
+        "color": "red",
+        "description": "101, 107, 110, 112, 115, 116, 132, 133",
+        "id": 20,
+        "lat": 50.7255936,
+        "lon": 15.1714086,
+        "title": "Obchodní akademie"
+    },
+    {
+        "color": "red",
+        "description": "101, 102, 103, 104, 105, 106, 107, 108, 110, 112, 113, 114, 115, 116, 117, 118, 132, 133",
+        "id": 21,
+        "lat": 50.7228736,
+        "lon": 15.1743069,
+        "title": "Autobusové nádraží"
+    },
+    {
+        "color": "red",
+        "description": "101, 103, 104, 105, 106, 107, 108, 110, 112, 113, 114, 115, 116",
+        "id": 22,
+        "lat": 50.7220422,
+        "lon": 15.1712494,
+        "title": "Kamenná"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 107, 108, 113, 115, 133",
+        "id": 23,
+        "lat": 50.7209319,
+        "lon": 15.1678811,
+        "title": "Pražská "
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 107, 108, 113, 115, 133",
+        "id": 24,
+        "lat": 50.7206153,
+        "lon": 15.1649314,
+        "title": "U Gymnázia"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 107, 108, 113",
+        "id": 25,
+        "lat": 50.7174531,
+        "lon": 15.162815,
+        "title": "Turnovská "
+    },
+    {
+        "color": "red",
+        "description": "101, 105",
+        "id": 26,
+        "lat": 50.7154311,
+        "lon": 15.1676797,
+        "title": "Revoluční"
+    },
+    {
+        "color": "red",
+        "description": "101, 105",
+        "id": 27,
+        "lat": 50.7143019,
+        "lon": 15.1710158,
+        "title": "Pod pivovarem"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 113",
+        "id": 28,
+        "lat": 50.7080689,
+        "lon": 15.1768961,
+        "title": "Vrkoslavice"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 113",
+        "id": 29,
+        "lat": 50.7048683,
+        "lon": 15.1801692,
+        "title": "Kokonín,Horní Kokonín"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 113",
+        "id": 30,
+        "lat": 50.7034378,
+        "lon": 15.1857347,
+        "title": "Kokonín,pošta"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 113",
+        "id": 31,
+        "lat": 50.7006989,
+        "lon": 15.1773242,
+        "title": "Kokonín,sokolovna"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 113",
+        "id": 32,
+        "lat": 50.6989669,
+        "lon": 15.1671839,
+        "title": "Kokonín,IMP"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 115",
+        "id": 33,
+        "lat": 50.6864967,
+        "lon": 15.1493483,
+        "title": "Rychnov u Jablonce n.N.,TAXUS"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 113, 115",
+        "id": 34,
+        "lat": 50.6843033,
+        "lon": 15.149685,
+        "title": "Rychnov u Jablonce n.N.,náměstí"
+    },
+    {
+        "color": "red",
+        "description": "101, 105, 115",
+        "id": 35,
+        "lat": 50.6832428,
+        "lon": 15.14425,
+        "title": "Rychnov u Jablonce n.N.,nádraží"
+    },
+    {
+        "color": "red",
+        "description": "102",
+        "id": 36,
+        "lat": 50.7232933,
+        "lon": 15.1795636,
+        "title": "ZŠ 5.května"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 108, 117",
+        "id": 37,
+        "lat": 50.7244417,
+        "lon": 15.1772097,
+        "title": "Podhorská"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 108, 117, 132",
+        "id": 38,
+        "lat": 50.7243081,
+        "lon": 15.1795769,
+        "title": "Podhorská Vikýř"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 108, 117",
+        "id": 39,
+        "lat": 50.7218133,
+        "lon": 15.1829292,
+        "title": "Jarní"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 108, 117, 132",
+        "id": 40,
+        "lat": 50.723465,
+        "lon": 15.1862172,
+        "title": "Novoveská"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 108, 132",
+        "id": 41,
+        "lat": 50.7260283,
+        "lon": 15.1857978,
+        "title": "Nám.B.Němcové"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 108, 132",
+        "id": 42,
+        "lat": 50.7302514,
+        "lon": 15.185135,
+        "title": "Pod sídlištěm"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 108, 132",
+        "id": 43,
+        "lat": 50.7322731,
+        "lon": 15.1865264,
+        "title": "Spojovací"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 104, 108, 114, 116, 118, 132",
+        "id": 44,
+        "lat": 50.7344969,
+        "lon": 15.1885461,
+        "title": "Jablonecké Paseky"
+    },
+    {
+        "color": "red",
+        "description": "102, 103, 104, 106, 108, 109, 114, 115, 116, 118, 131",
+        "id": 45,
+        "lat": 50.734745,
+        "lon": 15.1847058,
+        "title": "Jablonecké Paseky,ELP"
+    },
+    {
+        "color": "red",
+        "description": "103, 105, 114, 133",
+        "id": 46,
+        "lat": 50.7314072,
+        "lon": 15.1223383,
+        "title": "Proseč n.Nisou,Horní Proseč"
+    },
+    {
+        "color": "red",
+        "description": "103, 105, 114, 133",
+        "id": 47,
+        "lat": 50.7312775,
+        "lon": 15.1275044,
+        "title": "Proseč n.Nisou,V Pastvinách"
+    },
+    {
+        "color": "red",
+        "description": "103, 105, 114, 133",
+        "id": 48,
+        "lat": 50.7297286,
+        "lon": 15.1309272,
+        "title": "Proseč n.Nisou,Zlatá ulička"
+    },
+    {
+        "color": "red",
+        "description": "103, 105, 114, 133",
+        "id": 49,
+        "lat": 50.7292519,
+        "lon": 15.1357144,
+        "title": "Proseč n.Nisou,u překladiště"
+    },
+    {
+        "color": "red",
+        "description": "103, 105, 114, 133",
+        "id": 50,
+        "lat": 50.7305411,
+        "lon": 15.1464339,
+        "title": "Proseč n.Nisou,U Tenisu"
+    },
+    {
+        "color": "red",
+        "description": "103, 105, 114, 133",
+        "id": 51,
+        "lat": 50.73143,
+        "lon": 15.1503564,
+        "title": "Proseč n.Nisou,Široká"
+    },
+    {
+        "color": "red",
+        "description": "103, 104, 105, 106, 114, 116, 132",
+        "id": 52,
+        "lat": 50.7326125,
+        "lon": 15.1588125,
+        "title": "Na Roli"
+    },
+    {
+        "color": "red",
+        "description": "103",
+        "id": 53,
+        "lat": 50.7308194,
+        "lon": 15.1567689,
+        "title": "Urnový háj"
+    },
+    {
+        "color": "red",
+        "description": "103",
+        "id": 54,
+        "lat": 50.7293731,
+        "lon": 15.1576917,
+        "title": "Koloniál"
+    },
+    {
+        "color": "red",
+        "description": "103, 104, 105, 106, 114, 116, 132",
+        "id": 55,
+        "lat": 50.7310714,
+        "lon": 15.1609658,
+        "title": "Nemocnice"
+    },
+    {
+        "color": "red",
+        "description": "103",
+        "id": 56,
+        "lat": 50.7296181,
+        "lon": 15.1596967,
+        "title": "Jablonec n.Nisou,nemocnice hl.vchod"
+    },
+    {
+        "color": "red",
+        "description": "103",
+        "id": 57,
+        "lat": 50.7272186,
+        "lon": 15.1617211,
+        "title": "Nemocniční"
+    },
+    {
+        "color": "red",
+        "description": "103, 105, 112, 116, 133",
+        "id": 58,
+        "lat": 50.7250136,
+        "lon": 15.1664239,
+        "title": "Divadlo"
+    },
+    {
+        "color": "red",
+        "description": "103, 112, 115, 116, 133",
+        "id": 59,
+        "lat": 50.7249183,
+        "lon": 15.1710664,
+        "title": "Mírové nám. (Radnice)"
+    },
+    {
+        "color": null,
+        "description": "103, 104, 114, 116, 118",
+        "id": 60,
+        "lat": 50.73851,
+        "lon": 15.1969708,
+        "title": "Lučany n.Nisou,Jindřichov,odb."
+    },
+    {
+        "color": null,
+        "description": "103, 116, 118",
+        "id": 61,
+        "lat": 50.7415847,
+        "lon": 15.1986494,
+        "title": "Lučany n.Nisou,Jindřichov,rozc."
+    },
+    {
+        "color": null,
+        "description": "103, 116, 118",
+        "id": 62,
+        "lat": 50.7448503,
+        "lon": 15.1964969,
+        "title": "Lučany n.Nisou,Jindřichov,u transf."
+    },
+    {
+        "color": null,
+        "description": "103, 116, 118",
+        "id": 63,
+        "lat": 50.7490158,
+        "lon": 15.1954481,
+        "title": "Lučany n.Nisou,Jindřichov,u hřbitova"
+    },
+    {
+        "color": null,
+        "description": "103, 116, 118",
+        "id": 64,
+        "lat": 50.7521286,
+        "lon": 15.1937283,
+        "title": "Lučany n.Nisou,Jindřichov,konečná"
+    }
+]

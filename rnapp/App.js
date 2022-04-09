@@ -5,11 +5,14 @@ import * as Location from 'expo-location';
 import  MapView from 'react-native-maps';
 import  { Marker }  from 'react-native-maps';
 
+
 export default function App() {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
   const [lat, setLat] = useState(null);
   const [lon, setLon] = useState(null);
+
+  const markers = require('./Jablonec nad Nisou.json');
 
 
   useEffect(() => {
@@ -50,6 +53,15 @@ export default function App() {
   coordinate={{ latitude : lat , longitude : lon }}>
     <Image source={require('./circle.png')} style={{height: 20, width: 20 }} />
     </Marker>
+
+    {markers.map((marker) => {
+              return <Marker 
+              key={marker.id} 
+              coordinate={{latitude: marker.lat, longitude: marker.lon}} 
+              title={marker.title}
+              description={marker.description}
+              pinColor={marker.color}    />
+           })}
 
       </MapView>
       </View>
