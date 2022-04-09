@@ -1,8 +1,9 @@
 import * as Location from 'expo-location';
-import  MapView from 'react-native-maps';
+import  MapView, { Callout } from 'react-native-maps';
 import  { Marker }  from 'react-native-maps';
 import { Text, View, StyleSheet, Dimensions, Image } from 'react-native';
 import React, { useState, useEffect } from 'react';
+
 
 
 export const Main = props => {
@@ -21,11 +22,12 @@ export const Main = props => {
         setErrorMsg('Permission to access location was denied');
         return;
       }
-
-      let location = await Location.getCurrentPositionAsync({});
-      setLat(location.coords.latitude);
-      setLon(location.coords.longitude);
-      setLocation(location);
+      setInterval(async () => {
+        let location = await Location.getCurrentPositionAsync();
+        setLat(location.coords.latitude);
+        setLon(location.coords.longitude);
+        setLocation(location);
+    }, 1000);
     })();
   }, []);
 
@@ -56,9 +58,16 @@ export const Main = props => {
     {markers.map((marker) => {
               return <Marker 
               key={marker.id} 
-              coordinate={{latitude: marker.lat, longitude: marker.lon}} 
-              title={marker.title}
-              description={marker.description}  />
+              coordinate={{latitude: marker.lat, longitude: marker.lon}}                                        
+              >
+                  <Callout>
+                      <View style={{height: 75, width: 200}}>
+                        <Text style={styles.paragraph}>{marker.title}</Text>
+                        <Text style={styles.desc}>{marker.description}</Text>
+                      </View>
+                  </Callout>
+
+                  </Marker>
            })}
 
       </MapView>
@@ -88,7 +97,10 @@ const styles = StyleSheet.create({
   map: {
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height,
-  }
+  },
+  desc: {
+    textAlign: 'center',
+    },
 });
 
 export default Main;

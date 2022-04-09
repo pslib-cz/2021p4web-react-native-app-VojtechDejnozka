@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet, Dimensions, StatusBar, Image } from 'react-native';
 import DropDownPicker from 'react-native-dropdown-picker';
 import * as Location from 'expo-location';
-import  MapView from 'react-native-maps';
+import  MapView, { Callout } from 'react-native-maps';
 import  { Marker }  from 'react-native-maps';
 
 export const Select = props => {
@@ -49,11 +49,12 @@ export const Select = props => {
         setErrorMsg('Permission to access location was denied');
         return;
       }
-
-      let location = await Location.getCurrentPositionAsync({});
-      setLat(location.coords.latitude);
-      setLon(location.coords.longitude);
-      setLocation(location);
+      setInterval(async () => {
+        let location = await Location.getCurrentPositionAsync();
+        setLat(location.coords.latitude);
+        setLon(location.coords.longitude);
+        setLocation(location);
+    }, 1000)
     })();
   }, []);
 
@@ -94,9 +95,16 @@ export const Select = props => {
     {filter.map((marker) => {
               return <Marker 
               key={marker.id} 
-              coordinate={{latitude: marker.lat, longitude: marker.lon}} 
-              title={marker.title}
-              description={marker.description} />
+              coordinate={{latitude: marker.lat, longitude: marker.lon}}                                        
+              >
+                  <Callout>
+                      <View style={{height: 75, width: 200}}>
+                        <Text style={styles.paragraph}>{marker.title}</Text>
+                        <Text style={styles.desc}>{marker.description}</Text>
+                      </View>
+                  </Callout>
+
+                  </Marker>
            })}
 
       </MapView>
@@ -130,7 +138,10 @@ const styles = StyleSheet.create({
     dropdown: {
         marginBottom: 10,
         marginTop: 10,
-    }
+    },
+    desc: {
+        textAlign: 'center',
+    },
   });
 
 export default Select;
