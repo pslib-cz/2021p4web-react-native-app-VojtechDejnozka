@@ -27,7 +27,7 @@ export const Main = props => {
         setLat(location.coords.latitude);
         setLon(location.coords.longitude);
         setLocation(location);
-    }, 1000);
+    }, 5000);
     })();
   }, []);
 
