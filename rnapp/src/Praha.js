@@ -30,7 +30,16 @@ export const Praha = props => {
     "11": {"nazev": "Trolejbus"},
     "12": {"nazev": "Jednokolejka"},
 };
+  useEffect(() => {
+    fetch("https://api.golemio.cz/v2/vehiclepositions?routeShortName=1", {method: "GET", headers: {"x-access-token": golemio_klic}})
+    .then(response => response.json())
+    .then(data => {
+        console.log("Stazeny a dekodovany JSON:");
+        setVehicles(data.features);
+    });
   
+  
+}, []);
   const fetchAPI = (text) => {
     if (line == null) {
       fetch("https://api.golemio.cz/v2/vehiclepositions", {method: "GET", headers: {"x-access-token": golemio_klic}})
