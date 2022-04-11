@@ -30,11 +30,7 @@ export const Praha = props => {
     "11": {"nazev": "Trolejbus"},
     "12": {"nazev": "Jednokolejka"},
 };
-  useEffect(() => {
-        fetchAPI();
   
-  
-}, []);
   const fetchAPI = (text) => {
     if (line == null) {
       fetch("https://api.golemio.cz/v2/vehiclepositions", {method: "GET", headers: {"x-access-token": golemio_klic}})
@@ -80,7 +76,7 @@ export const Praha = props => {
   if (lat != null && lon != null) {
     return (
       <View style={styles.container}>
-        <TextInput style={styles.input} onChangeText={onChangeLine} value={line} placeholder="Input line number (blank if all)"/>
+        <TextInput style={styles.input} onChangeText={onChangeLine} value={line} placeholder="Input line number (blank if all (not recommended))"/>
         <Button title="Refresh" onPress={fetchAPI} />
          <MapView
          style={styles.map}
